@@ -4,7 +4,8 @@
   "description": "My first steps in node js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "lint": "eslint ./test/**/*.js",
+    "test": "npm run lint && mocha -t 5000"
   },
   "repository": {
     "type": "git",

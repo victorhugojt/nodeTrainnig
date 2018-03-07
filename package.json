@@ -28,6 +28,9 @@
     "mocha": "^5.0.1"
   },
   "dependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
     "superagent": "^3.8.2",
     "superagent-promise": "^1.1.0"
   }

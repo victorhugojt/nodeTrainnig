@@ -1,0 +1,38 @@
+{
+  "name": "nodetrainning",
+  "version": "1.0.0",
+  "description": "My first steps in node js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./test/**/*.js",
+    "test": "npm run lint && mocha -t 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://victorhugojt@github.com/victorhugojt/nodeTrainnig.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "mocha",
+    "api-testing"
+  ],
+  "author": "Victor Hugo Jimenez T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorhugojt/nodeTrainnig/issues"
+  },
+  "homepage": "https://github.com/victorhugojt/nodeTrainnig#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "http-status-codes": "^1.3.0",
+    "mocha": "^5.0.1"
+  },
+  "dependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "superagent": "^3.8.2",
+    "superagent-promise": "^1.1.0"
+  }
+}
